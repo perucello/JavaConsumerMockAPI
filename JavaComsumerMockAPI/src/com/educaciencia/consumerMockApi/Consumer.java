@@ -26,7 +26,7 @@ public class Consumer {
 
 			String endpointMockio = "https://600607e63698a80017de12e2.mockapi.io/demo";
 
-			URL url = new URL(endpointMockio); // "http://localhost:8080/aula-rest-servidor/webapi/usuario"
+			URL url = new URL(endpointMockio);
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			if (conn.getResponseCode() == 200) {
